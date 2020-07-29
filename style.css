@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(2, 1, 10);
+	color: #B9BAA3;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #735290;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+	color: #B9BAA3;
+	text-align: center;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+li a:hover{
+	color: #c41f59;
+	background-color: #FFB8D1;
+}
+
+.active {
+	background-color: #FFB8D1;
+	color: #c41f59;
+}
+
+.glow {
+	font-size: 80px;
+	color: #FFB8D1;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow{
+	from {
+		text-shadow: 0 0 10px #c376e7, 0 0 20px #9548b9, 0 0 30px #5a1879, 0 0 40px #640a8d
+	}
+
+	to {
+		text-shadow: 0 0 40px #c376e7, 0 0 30px #9548b9, 0 0 20px #5a1879, 0 0 410px #640a8d
+	}
+}
+
+header{
+	background-color: #470547;
+}
+
+main {
+	background-color: #dd27a6;
+	padding: 15px;
+	font-size: 25px;
+}
+
+img {
+	border: #c376e7;
+	border-radius: 5px;
+	border-style: double;
+	text-align: center;
+}
+
+figcaption {
+	color: #FFB8D1;
+	font-size: 10px;
+}
+
+h2 {
+	color: #d6cdd0;
+	font-size: 40px;
+}
+
+footer {
+	padding: 15px;
+	text-align: center;
+	background-color: #882bdf;
+	font-size: 15px;
+	
+}
